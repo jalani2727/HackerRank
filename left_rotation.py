@@ -11,5 +11,9 @@ def rotLeft(a, d):
 
 class MyTests(unittest.TestCase):
     def test1(self):
-        self.assertEqual(rotLeft([33,47,70,37,8,53,13,93,71,72,51,100,60,87,97], 13))
-   
+        self.assertEqual(rotLeft([33,47,70,37,8,53,13,93,71,72,51,100,60,87,97], 13), [87,97,33,47,70,37,8,53,13,93,71,72,51,100,60])
+
+
+
+if __name__ == '__main__':
+        unittest.main()
